@@ -62,7 +62,6 @@ Host github.com
   IdentityFile $SSH_KEY_PATH
   IdentitiesOnly yes
   AddKeysToAgent yes
-  UseKeychain yes
 EOL
 
 # Set correct permissions for SSH config
