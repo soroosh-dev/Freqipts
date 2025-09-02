@@ -18,7 +18,7 @@ apt update
 
 # Install Python 3.13 and its development files
 echo "Installing Python 3.13..."
-apt install -y python3.13 python3.13-venv python3.13-dev python3.13-distutils
+apt install -y python3.13 python3.13-venv python3.13-dev
 
 # Install pip for Python 3.13
 echo "Installing pip for Python 3.13..."
