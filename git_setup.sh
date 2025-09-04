@@ -76,7 +76,7 @@ git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 # Configure Git to sign commits with SSH key
 git config --global gpg.format ssh
-git config --global user.signingkey "${SSK_KEY_PATH}.pub"
+git config --global user.signingkey "${SSH_KEY_PATH}.pub"
 git config --global commit.gpgsign true
 
 # Display the public key
